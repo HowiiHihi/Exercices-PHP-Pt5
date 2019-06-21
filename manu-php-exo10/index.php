@@ -7,18 +7,18 @@
 </head>
 
 <body>
-  <h1>Exercice 10</h1>
+  <h1>Exercice 9</h1>
   <?php
-  $counties = [
-    '02' => 'Aisne',
-    '59' => 'Nord',
-    '60' => 'Oise',
-    '62' => 'Pas-de-Calais',
-    '80' => 'Somme'
-  ];
-    foreach ($counties as $countyNumber => $array){?>
-  <p>Département n°<?= $countyNumber ?> : <?= $array ?></p>
-  <?php } ?>
+    $counties = [
+      '02' => 'Aisne',
+      '59' => 'Nord',
+      '60' => 'Oise',
+      '62' => 'Pas-de-Calais',
+      '80' => 'Somme'
+      ];
+    foreach ($counties as $countyNumber => $county){?>
+      <p>Département n°<?= $countyNumber ?> : <?= $county ?></p>
+    <?php } ?>
 </body>
 
 </html>
