@@ -20,9 +20,9 @@
     'Octobre',
     'Novembre',
     'Décembre' );
-    echo 'Voici le contenu correspondant à l\'index 5 : ' . $months[5] . '<br />';
     // echo '<pre>';
     // print_r($months) . '</pre>';
     ?>
+    <p>Voici le contenu correspondant à l'index 5 : <?= $months[5]; ?></p>
   </body>
   </html>

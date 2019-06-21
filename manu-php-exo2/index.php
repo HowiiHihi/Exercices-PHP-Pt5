@@ -20,7 +20,7 @@
     'Octobre',
     'Novembre',
     'Décembre' );
-    echo 'Voici le contenu de la troisième ligne du tableau : ' . $months[2]; //Un tableau commence toujours à 0, ici la troisième ligne correspond donc à la valeur 2.
+    echo 'Voici le contenu de la troisième ligne du tableau :' . ' ' . $months[2]; //Un tableau commence toujours à 0, ici la troisième ligne correspond donc à la valeur 2.
     ?>
   </body>
   </html>

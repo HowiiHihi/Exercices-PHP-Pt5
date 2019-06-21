@@ -7,22 +7,9 @@
 <body>
   <h1>Exercice 4</h1>
   <?php
-  $replaceMonth = 'Août';
-  $months[] = 'Janvier';
-  $months[] = 'Février';
-  $months[] = 'Mars';
-  $months[] = 'Avril';
-  $months[] = 'Mai';
-  $months[] = 'Juin';
-  $months[] = 'Juillet';
-  $months[] = 'Aout';
-  $months[] = 'Septembre';
-  $months[] = 'Octobre';
-  $months[] = 'Novembre';
-  $months[] = 'Décembre';
-  $months[7] = $replaceMonth;
-  echo '<pre>';
-  print_r($months) . '</pre>';
+  $months = ['Janvier','Février','Mars','Avril','Mai', 'Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre'];
+  $months[7] = 'Août';
+  var_dump($months);
   ?>
 </body>
 </html>
